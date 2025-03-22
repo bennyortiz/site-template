@@ -1,53 +1,86 @@
-# Website Template
+# Ben's Template
 
-A modern Next.js website template with TypeScript and Tailwind CSS.
+A modern website template built with Next.js 15, TypeScript, Tailwind CSS, and shadcn/ui components.
 
 ## Features
 
-- ⚡️ Next.js 14 with App Router
-- 🔥 TypeScript
-- 💨 Tailwind CSS
-- 📱 Responsive Design
-- 🎨 Modern UI with Geist Font
-- 🌙 Dark Mode Support
-- 🔍 SEO Optimized
-- 📦 Static Export
+- **Modern Tech Stack**: Next.js 15, React 18, TypeScript, and Tailwind CSS
+- **UI Components**: Built with shadcn/ui for beautiful, accessible components
+- **Dark Mode Support**: Toggle between light and dark modes
+- **Responsive Design**: Optimized for all screen sizes
+- **Accessibility**: Built with accessibility in mind
+- **SEO Optimization**: Well-structured metadata and semantic HTML
+- **Performance**: Fast loading and rendering
+- **Clean Code**: Well-organized, maintainable codebase
 
 ## Getting Started
 
-1. Clone the repository:
-```bash
-git clone https://github.com/Dingzeefs/website-template.git
-```
+### Prerequisites
 
-2. Install dependencies:
+- Node.js 18.17 or later
+- npm or yarn or pnpm
+
+### Installation
+
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/bens-template.git
+
+# Navigate to the project directory
+cd bens-template
+
+# Install dependencies
 npm install
-# or
-yarn install
-# or
-pnpm install
-```
 
-3. Run the development server:
-```bash
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the result.
+
+## Project Structure
+
+```
+src/
+├── app/              # Next.js app directory
+├── components/       # React components
+│   ├── layouts/      # Layout components
+│   └── ui/           # UI components
+├── lib/              # Utility functions
+└── styles/           # Global styles
+```
+
+## Customization
+
+### Styling
+
+This template uses Tailwind CSS for styling. The configuration file is located at `tailwind.config.ts`.
+
+### Components
+
+UI components are built with shadcn/ui. You can find them in the `src/components/ui` directory.
+
+### Adding New Pages
+
+Create new pages by adding files to the `src/app` directory following Next.js 15 App Router conventions.
+
+## Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build for production
+- `npm start` - Start the production server
+- `npm run lint` - Check code quality
 
 ## Learn More
 
 - [Next.js Documentation](https://nextjs.org/docs)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [shadcn/ui](https://ui.shadcn.com)
 
-## Deploy
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app) from the creators of Next.js.
+MIT License
 
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+Made by Ben Ortiz
